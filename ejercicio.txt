@@ -1,0 +1,4 @@
+Diseñe una función que reciba un número entero en el intervalo de 1 a 4, correspondiente al estado civil de una persona y retorna el nombre del estado civil.
+
+Considere: 1 para soltero, 2 para casado, 3 para viudo y 4 para divorciado.
+Imprimir el resultado y si el número no está en el intervalo de 1 a 4, imprima un mensaje de error.
