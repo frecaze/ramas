@@ -26,3 +26,15 @@ func estadocivil(numerocivil: Int) -> String {
     return estado
 }
 estadocivil(numerocivil: 1)
+
+/*clousures*/
+func alcuadraco(calculacuadrado: Int) -> Int {
+    var resultado = calculacuadrado * calculacuadrado
+    
+    return resultado
+}
+
+alcuadraco(calculacuadrado: 10)
+
+
+
