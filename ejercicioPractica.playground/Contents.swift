@@ -59,3 +59,25 @@ var calcular = {
 }
 calcular(10)
 
+var estadocivil = {
+    (numerocivil: Int) -> String in
+    var estado = ""
+    switch numerocivil {
+    case 1:
+        estado = "soltero"
+        break
+    case 2:
+        estado = "casado"
+        break
+    case 3:
+        estado = "viudo"
+        break
+    case 4:
+        estado = "divorsiado"
+        break
+    default:
+        estado = "no existe"
+    }
+    return estado
+}
+estadocivil(1)
